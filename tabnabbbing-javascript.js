@@ -3,7 +3,7 @@ document.getElementById('malicious-link').addEventListener('click', function (ev
     event.preventDefault();
 
     // Membuka tab baru ke URL jahat
-    window.open('https://evil.com', '_blank');
+    window.open('https://evil.com');
 
     // Memaksa logout di tab sumber
     window.location.href = 'https://www.codepolitan.com/logout/';
