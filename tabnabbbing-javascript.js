@@ -6,5 +6,5 @@ document.getElementById('malicious-link').addEventListener('click', function (ev
     window.open('https://evil.com');
 
     // Memaksa logout di tab sumber
-    window.location.href = 'https://www.codepolitan.com/logout/';
+    window.location.href = 'https://trakteer.id/logout';
 });
